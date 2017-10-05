@@ -4,7 +4,7 @@
 <Todo>
 
 # Inicio
-Crear repositorio con nombre <usuario>.github.io
+Crear repositorio con nombre usuario.github.io
 En consola:
 ```
 git clone https://github.com/usuario/usuario.github.io
