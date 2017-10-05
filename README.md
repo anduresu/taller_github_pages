@@ -3,7 +3,12 @@
 ## Presentación
 <Todo>
 
+
+
 # Inicio
+
+** Nota: git clone equivale en Github para Windows a Set up in Desktop y git push aquí es similar a un sync, creo que haré el fin de semana lo mismo en Windows y lo ordenaré, esto era un apunte para mí**
+
 Crear repositorio con nombre usuario.github.io
 En consola:
 ```
