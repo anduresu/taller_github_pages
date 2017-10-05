@@ -1,0 +1,16 @@
+- Crear nueva pag
+
+touch pag2.html
+
+En el archivo pag2.html escribir:
+
+<body>
+    <div class="row center">
+        <img src="imgs/meeseeks.jpg">
+    </div>
+</body>
+
+En index.html escribir (crear nuevo boton):
+
+<a href="pag2.html" class="waves-effec waves-light btn-large red"><i class="material-icons left">cloud</i>Click me</a>
+
