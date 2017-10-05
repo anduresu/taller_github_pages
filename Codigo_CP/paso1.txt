@@ -1,0 +1,27 @@
+# Sea <usuario> su nombre de usuario en github:
+- Crear un repositorio de nombre <usuario>.github.io
+- Abrir consola ( Ctrl+Alt+T )
+
+- Clonar el repositorio:
+
+git clone https://github.com/<usuario>/<usuario>.github.io
+
+- Cambiar al directorio del proyecto:
+
+cd <usuario>.github.io 
+
+- Crear archivo
+
+touch index.html
+
+- Abrir archivo
+
+subl index.html
+
+- Escribir algo en el archivo
+
+- Subir a github:
+
+git add index.html
+git commit -m "mensaje util"
+git push origin master
