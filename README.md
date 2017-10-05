@@ -7,7 +7,7 @@
 
 # Inicio
 
-** Nota: git clone equivale en Github para Windows a Set up in Desktop y git push aquí es similar a un sync, creo que haré el fin de semana lo mismo en Windows y lo ordenaré, esto era un apunte para mí**
+**__Nota: git clone equivale en Github para Windows a Set up in Desktop y git push aquí es similar a un sync, creo que haré el fin de semana lo mismo en Windows y lo ordenaré, esto era un apunte para mí__**
 
 Crear repositorio con nombre usuario.github.io
 En consola:
@@ -70,13 +70,13 @@ git add -A
 git commit -m "template de materialize"
 git push origin master
 ```
-**Ojo:** el -A significa All, es decir, se envian todos los archivos de la carpeta del proyecto a Github. Su página debería verse más boni ahora.
+**__Ojo:__* el -A significa All, es decir, se envian todos los archivos de la carpeta del proyecto a Github. Su página debería verse más boni ahora.
 
 En general uno cambia cosas a los templates y los va transformando, pero como dije antes este template es bastante vacío. En general es mejor trabajar en *local* es decir, en el PC y mandar los cambios importantes a Github. Por lo mismo, mantegan abierto el index.html en el buscador y veamos como se reflejan cambios simples.
 
 Por ejemplo, en la línea 6 cambiemos "Starter Template - Materialize" por "Mi página" y guarden, en el buscador presionen F5, arriba el nombre de la pestaña debería haber cambiado. Pero todo se ve confuso con < algo >< /algo > y otras cosas que no entiendo. Estos son tags, y lamentablemente cada < yo > tiene un significado distinto y realiza cosas distintas, < algo > abre y < /algo > cierra, todo lo que esta dentro adquirá propiedades definidas de ese algo. Por ejemplo, en el tag head entre las líneas 3-12 se encuentran los scripts, links al CSS que se está usando y otras cosas que no se muestran directamente en la página. El < body > contiene la página, < div > define una división del documento y ayuda a separar elementos cuando la página queda mal configurada y hay cosas encima de otras. < ul > se utiliza para listas, < a > para links. No necesitan recordar todo esto, solo saber como se estructura el archivo/documento html.
 
- ¿Oye pero como sabes todo eso? Lo googlié mientras escribía esto, Google o **inserte buscador que no invada su privacidad ** es su mejor amigo. ¿Y esas cosas que dicen class, href y todo lo que esta dentro de los tags? mmm href es donde pones un link al que deberia llevarte clickear el elemento (puede ser un link a tu propia página, y tampoco es tan cuadrado su uso). Las clases son otra cosa muy distinta, la clase es lo que permite definir un estilo para un elemento, de modo que cada vez que llamemos a la clase el elemento usara los parametros que definimos para el estilo de esa clase. En general los templates tienen varias clases que definen el estilo y que usamos para mantener un formato de la página y que se vea boni. ¿Dónde estan todas estas cosas, porque dices que hay muchas clases, supongo que eso no se busca en internet? mmm no, de hecho estan definidas en una carpeta de su proyecto llamada "css" y dentro de ella un archivo llamado materialize.css (la version min es una version minimizada y menos legible de lo mismo).
+ ¿Oye pero como sabes todo eso? Lo googlié mientras escribía esto, Google o **__inserte buscador que no invada su privacidad __** es su mejor amigo. ¿Y esas cosas que dicen class, href y todo lo que esta dentro de los tags? mmm href es donde pones un link al que deberia llevarte clickear el elemento (puede ser un link a tu propia página, y tampoco es tan cuadrado su uso). Las clases son otra cosa muy distinta, la clase es lo que permite definir un estilo para un elemento, de modo que cada vez que llamemos a la clase el elemento usara los parametros que definimos para el estilo de esa clase. En general los templates tienen varias clases que definen el estilo y que usamos para mantener un formato de la página y que se vea boni. ¿Dónde estan todas estas cosas, porque dices que hay muchas clases, supongo que eso no se busca en internet? mmm no, de hecho estan definidas en una carpeta de su proyecto llamada "css" y dentro de ella un archivo llamado materialize.css (la version min es una version minimizada y menos legible de lo mismo).
 
  Por ejemplo, en la línea 34 se encuentra el código que indica que ahí va un botón, ¿Cómo se que es un botón? bueno, tiene el texto del botón, de otro modo los buscadores tienen un comando inspect al hacer click derecho que te ayuda a identificar los elementos en las páginas que ves. Entonces, en la parte de "class=btn-large waves-effect waves-light orange" se define el estilo del botón, busquemos esto en el archivo del css (lo que comienza con . es una clase). Debería aparecer algo asi
 
