@@ -1,0 +1,25 @@
+- Descargar template básico de Materialize
+
+wget http://materializecss.com/templates/starter-template.zip
+
+- Descomprimir 
+
+unzip starter-template.zip
+
+- Mover el interior de la carpeta al inicio del repositorio
+
+mv starter-template/* .
+
+- Borrar lo descargado
+
+rm -rf starter-template/
+rm starter-template.zip
+
+- Subir a github
+
+git add -A
+git commit -m "template de materialize"
+git push origin master
+
+
+
