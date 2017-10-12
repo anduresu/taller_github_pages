@@ -1,13 +1,13 @@
 # Taller de Github pages
 
+**__Update: estoy trabajando en un post en Medium en el que muestro paso por paso el mismo tutorial en Windows y escrito más formal. Si la U no ataca nuevamente lo liberaré dentro de los próximos días__**
+
 ## Presentación
 <Todo>
 
 
 
 # Inicio
-
-**__Nota: git clone equivale en Github para Windows a Set up in Desktop y git push aquí es similar a un sync, creo que haré el fin de semana lo mismo en Windows y lo ordenaré, esto era un apunte para mí__**
 
 Crear repositorio con nombre usuario.github.io
 En consola:
